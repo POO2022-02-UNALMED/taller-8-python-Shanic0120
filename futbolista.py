@@ -31,4 +31,4 @@ class Futbolista(Persona,Deportista):
         self._piernaHabil=n
 
     def __str__(self):
-        return "Mi nombre es %s soy profesional en el deporte %s Tengo %s años de edad y llevo %s años en el deporte"%(self.getNombre(),self.getDeporte(),self.getEdad(),self.getAñosPracticando)
+        return "Mi nombre es %s soy profesional en el deporte %s Tengo %s años de edad y llevo %s años en el deporte"%(self.getNombre(),self.getDeporte(),self.getEdad(),self.getAñosPracticando())
